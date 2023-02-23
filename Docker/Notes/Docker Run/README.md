@@ -16,12 +16,14 @@ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
 
 - OPTIONS are optional parameters that modify the container's behavior. Some common options include:
-    -d: Run the container in the background (detached mode).
-    -it: Run the container in interactive mode with a pseudo-TTY attached.
-    --name: Assign a name to the container.
-    -p: Map a container port to a host port.
-    --rm: Remove the container automatically when it exits.
-    -v: Mount a host directory or file as a data volume inside the container.
+    <ul>
+        <li> -d: Run the container in the background (detached mode). </li>
+        <li> -it: Run the container in interactive mode with a pseudo-TTY attached. </li>
+        <li> --name: Assign a name to the container. </li>
+        <li> -p: Map a container port to a host port. </li>
+        <li> --rm: Remove the container automatically when it exits. </li>
+        <li> -v: Mount a host directory or file as a data volume inside the container. </li>
+    </ul>
 - IMAGE is the name and tag of the Docker image to use as the basis for the container.
 - COMMAND (optional) is the command to run inside the container.
 - ARG (optional) is any additional arguments to pass to the command.
