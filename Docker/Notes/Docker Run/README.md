@@ -2,6 +2,12 @@
 
 This command is used to run a container.
 
+**SYNTEX**
+```bash
+docker run <image_name>:<tag>       # if the image is offical
+docker run <repo_name>/<image_name>:<tag>       # if the image is not offical
+```
+
 - First, Docker will search for the requested image locally. If it is available, Docker will run the image and create a container from it.
 
 ```bash
