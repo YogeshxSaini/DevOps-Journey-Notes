@@ -11,7 +11,7 @@ $ docker run centos
 - If the requested image is not available locally, Docker will pull the image from the Docker registry and then run it.
 
 ```bash
-$docker run centos
+$ docker run centos
 > Unable to find image 'centos:latest' locally
 > latest: Pulling from library/centos
 ```
