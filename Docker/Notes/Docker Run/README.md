@@ -27,7 +27,7 @@ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 - ARG (optional) is any additional arguments to pass to the command.
 
 
-
+**NOTES**
 1. First, Docker will search for the requested image locally. If it is available, Docker will run the image and create a container from it.
 
 ```bash
