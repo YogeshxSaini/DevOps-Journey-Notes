@@ -2,7 +2,7 @@
 
 This command is used to run a container.
 
-** SIMPLE SYNTEX **
+**SIMPLE SYNTEX**
 ```bash
 docker run <image_name>:<tag>       # if the image is offical
 docker run <repo_name>/<image_name>:<tag>       # if the image is not official
@@ -10,7 +10,7 @@ docker run <repo_name>/<image_name>:<tag>       # if the image is not official
 
 > Note that if the image is hosted on a private registry, you may need to authenticate with the registry using the docker login command before you can pull or run the image.
 
-** SYNTEX **
+**SYNTEX**
 ```bash
 docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
