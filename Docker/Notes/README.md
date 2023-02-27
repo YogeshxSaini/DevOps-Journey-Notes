@@ -18,7 +18,7 @@ docker start <container_name_or_id>    # Start a stopped container
 docker stop <container_name_or_id>     # Stop a running container
 docker rm <container_name_or_id>       # Remove a container
 docker logs <container_name_or_id>     # Show the logs of a container
-docker exec <container_name_or_id>     # Execute a command inside a container
+docker exec <container_name_or_id> <command>     # Execute a command inside a container
 ```
 
 <h2> Docker Network Commands</h2>
