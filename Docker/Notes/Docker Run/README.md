@@ -1,13 +1,24 @@
 <h1 align="center"> Docker Run </h1>
 
-This command is used to run a container.
+The docker run command is used to create and start a new container from an image. When you run this command, Docker will download the image (if it's not already available) and create a new container based on that image.
+
+Here are some of the most commonly used options for the 'docker run' command:
+
+| Option        | Description                                                  |
+| ------------- | ------------------------------------------------------------ |
+| '-d'	        | Run the container in detached mode (i.e., in the background) |
+| '-p'	        | Map a port from the container to the host                    |
+| '-v'	        | Mount a volume from the host to the container                |
+| '-e'	        | Set an environment variable                                  |
+| '--name'	    | Give the container a name                                    |
+| '--rm'	    | Automatically remove the container when it stops             |
 
 **SIMPLE SYNTEX**
 ```bash
-docker run <image_name>:<tag>       # if the image is offical
+docker run <image_name>:<tag>                   # if the image is offical
 docker run <repo_name>/<image_name>:<tag>       # if the image is not official
 ```
-
+<!-- 
 > Note that if the image is hosted on a private registry, you may need to authenticate with the registry using the docker login command before you can pull or run the image.
 
 **SYNTEX**
@@ -42,4 +53,4 @@ $ docker run centos
 $ docker run centos
 > Unable to find image 'centos:latest' locally
 > latest: Pulling from library/centos
-```
+``` -->
