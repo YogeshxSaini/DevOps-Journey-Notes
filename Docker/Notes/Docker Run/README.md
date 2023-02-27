@@ -20,27 +20,6 @@ docker run <image_name>:<tag>                   # if the image is offical
 docker run <repo_name>/<image_name>:<tag>       # if the image is not official
 ```
 
-<code><span class="gp">$</span><span class="w"> </span>docker ps
-<span class="go">
-CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS              NAMES
-c3f279d17e0a        ubuntu:22.04        /bin/bash           7 days ago          Up 25 hours                            desperate_dubinsky
-197387f1b436        ubuntu:22.04        /bin/bash           7 days ago          Up 25 hours                            focused_hamilton
-
-</span><span class="gp">$</span><span class="w"> </span>docker commit <span class="nt">--change</span><span class="o">=</span><span class="s1">'CMD ["apachectl", "-DFOREGROUND"]'</span> <span class="nt">-c</span> <span class="s2">"EXPOSE 80"</span> c3f279d17e0a  svendowideit/testimage:version4
-<span class="go">
-f5283438590d
-
-</span><span class="gp">$</span><span class="w"> </span>docker run <span class="nt">-d</span> svendowideit/testimage:version4
-<span class="go">
-89373736e2e7f00bc149bd783073ac43d0507da250e999f3f1036e0db60817c0
-
-</span><span class="gp">$</span><span class="w"> </span>docker ps
-<span class="go">
-CONTAINER ID        IMAGE               COMMAND                 CREATED             STATUS              PORTS              NAMES
-89373736e2e7        testimage:version4  "apachectl -DFOREGROU"  3 seconds ago       Up 2 seconds        80/tcp             distracted_fermat
-c3f279d17e0a        ubuntu:22.04        /bin/bash               7 days ago          Up 25 hours                            desperate_dubinsky
-197387f1b436        ubuntu:22.04        /bin/bash               7 days ago          Up 25 hours                            focused_hamilton
-</span></code>
 
 ![Screenshot 2023-02-27 at 12 41 15 PM](https://user-images.githubusercontent.com/111651161/221498432-bac7c96d-7f67-493b-9128-d09e592542af.png)
 
