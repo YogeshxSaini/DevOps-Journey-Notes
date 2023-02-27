@@ -17,9 +17,9 @@
 
 **Notes**
 
-1. We can't remove a paused container by `docker rm <container_name_or_id>` command. Unpause and then stop the container before attempting removal or force remove.
+1. We can't remove a paused container by `docker rm <container_name_or_id>` command. Unpause and then stop the container before attempting removal or force remove.  
     `docker rm -f`
-2. The command started using `docker exec` only runs while the container’s primary process (PID 1) is running, and it is not restarted if the container is restarted. [More here](https://docs.docker.com/engine/reference/commandline/exec/)
+2. The command started using `docker exec` only runs while the container’s primary process (PID 1) is running, and it is not restarted if the container is restarted.   [More here](https://docs.docker.com/engine/reference/commandline/exec/)
 
 
 **Tips**
