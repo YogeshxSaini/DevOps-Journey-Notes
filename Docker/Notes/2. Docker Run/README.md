@@ -14,7 +14,6 @@ Here are some of the most commonly used options for the 'docker run' command:
 | `--name`	    | Give the container a name                                         |
 | `--rm`	    | Automatically remove the container when it stops                  |
 
-**SYNTEX**
 ```bash
 docker run <image_name>:<tag>                   # if the image is offical
 docker run <repo_name>/<image_name>:<tag>       # if the image is not official
