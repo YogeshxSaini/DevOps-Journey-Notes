@@ -17,7 +17,8 @@ Here are some of the most commonly used options for the 'docker run' command:
 ```bash
 docker run <image_name>:<tag>                   # if the image is offical
 docker run <repo_name>/<image_name>:<tag>       # if the image is not official
-```
+
+```![Screenshot 2023-02-27 at 12 41 15 PM](https://user-images.githubusercontent.com/111651161/221497630-0cc48ec1-e12a-4eb2-9ffd-143182389cc8.png)
 <!-- 
 > Note that if the image is hosted on a private registry, you may need to authenticate with the registry using the docker login command before you can pull or run the image.
 
