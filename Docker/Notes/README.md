@@ -1,21 +1,22 @@
 <h2> Docker Images Commands</h2>
 ```bash
 docker images               # List all the available images
-docker pull <image>         # Pull an image from the registry
-docker push <image>         # Push an image to the registry
-docker rmi <image>          # Remove an image from the local machine
+docker pull <image:tag>         # Pull an image from the registry
+docker push <image:tag>         # Push an image to the registry
+docker rmi <image:tag>          # Remove an image from the local machine
 ```
 
 <h2> Docker Container Commands</h2>
 ```bash
+docker run <image:tag>          # Run a new container from an image
 docker ps                   # List all running containers
-docker ps -a                # List all containers (including stopped ones)
-docker create <image>       # Create a new container from an image
-docker start <container>    # Start a stopped container
-docker stop <container>     # Stop a running container
-docker rm <container>       # Remove a container
-docker logs <container>     # Show the logs of a container
-docker exec <container>     # Execute a command inside a container
+docker ps -a                # List all containers (including running, paused, created and stopped ones)
+docker create <image:tag>       # Create a new container from an image
+docker start <container_name_or_id>    # Start a stopped container
+docker stop <container_name_or_id>     # Stop a running container
+docker rm <container_name_or_id>       # Remove a container
+docker logs <container_name_or_id>     # Show the logs of a container
+docker exec <container_name_or_id>     # Execute a command inside a container
 ```
 
 <h2> Docker Network Commands</h2>
@@ -23,8 +24,8 @@ docker exec <container>     # Execute a command inside a container
 docker network create <network>    # Create a new network
 docker network ls                  # List all networks
 docker network inspect <network>   # Show detailed information about a network
-docker network connect <network> <container> # Connect a container to a network
-docker network disconnect <network> <container> # Disconnect a container from a network
+docker network connect <network> <container_name_or_id> # Connect a container to a network
+docker network disconnect <network> <container_name_or_id> # Disconnect a container from a network
 ```
 
 <h2> Docker Volume Commands</h2>
