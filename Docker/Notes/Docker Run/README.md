@@ -18,6 +18,8 @@ Here are some of the most commonly used options for the 'docker run' command:
 docker run <image_name>:<tag>                   # if the image is offical
 docker run <repo_name>/<image_name>:<tag>       # if the image is not official
 ```
+
+![docker run ubunut](../../../../../../Desktop/Screenshot%202023-02-27%20at%2012.41.15%20PM.png)
 <!-- 
 > Note that if the image is hosted on a private registry, you may need to authenticate with the registry using the docker login command before you can pull or run the image.
 
