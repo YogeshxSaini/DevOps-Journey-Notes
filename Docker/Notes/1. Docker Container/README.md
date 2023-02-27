@@ -27,7 +27,10 @@
 1. Remove a running container without stopping it.  
     `docker rm -f <container_name_or_id>`
 
-    ```bash
+2. List all the containers IDs only.  
+    `docker ps -aq`
+
+     ```bash
     $ docker ps -aq
     
     b957616beef3
@@ -38,9 +41,6 @@
     ea1b9f3e6f88
     dd0fcbedc0f1
     ```
-
-2. List all the containers IDs only.  
-    `docker ps -aq`
 
 3. Delete all the containers (including running, paused, stopped, exited).  
     `docker rm -f $(docker ps -aq)`
