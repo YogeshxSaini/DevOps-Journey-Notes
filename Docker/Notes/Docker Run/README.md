@@ -25,7 +25,15 @@ docker run <repo_name>/<image_name>:<tag>       # if the image is not official
 First, Docker will check the local host machine to see if the image is already available; if not, it will pull the image from the registry (where images are deployed) and then Docker will create and start a new container based on that image.
 
 <img src="https://user-images.githubusercontent.com/111651161/221502653-f4c50e7a-1269-40be-bdec-10970621aa33.png" height="600">
-     
+
+## List all the running containers
+
+```bash
+docker ps
+or
+docker container ls
+```
+
 ## Running a container in interactive mode
 
 ```bash
@@ -34,40 +42,32 @@ docker run -it ubuntu
 
 This will create a new contaier from the latest Ubuntu image, and opens up an interactive terminal session with that container.
 
+## Giving the container a name
 
-<!-- 
-> Note that if the image is hosted on a private registry, you may need to authenticate with the registry using the docker login command before you can pull or run the image.
-
-**SYNTEX**
 ```bash
-docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+docker run --name <container_name> <image>
 ```
 
-- OPTIONS are optional parameters that modify the container's behavior. Some common options include:
-    <ul>
-        <li> -d: Run the container in the background (detached mode). </li>
-        <li> -it: Run the container in interactive mode with a pseudo-TTY attached. </li>
-        <li> --name: Assign a name to the container. </li>
-        <li> -p: Map a container port to a host port. </li>
-        <li> --rm: Remove the container automatically when it exits. </li>
-        <li> -v: Mount a host directory or file as a data volume inside the container. </li>
-    </ul>
-- IMAGE is the name and tag of the Docker image to use as the basis for the container.
-- COMMAND (optional) is the command to run inside the container.
-- ARG (optional) is any additional arguments to pass to the command.
-
-
-**NOTES**
-1. First, Docker will search for the requested image locally. If it is available, Docker will run the image and create a container from it.
+## Mapping a port from the container to the host
 
 ```bash
-$ docker run centos
-> Unable to find image 'centos:latest' locally
+docker run -p <port_on_host>:<exposed_port_on_container> <image>
 ```
-2. If the requested image is not available locally, Docker will pull the image from the Docker registry and then run it.
+
+## Mounting a volume from the host to the container
 
 ```bash
-$ docker run centos
-> Unable to find image 'centos:latest' locally
-> latest: Pulling from library/centos
-``` -->
+docker run -v /path/on/host:/path/in/container <image>
+```
+
+## Setting an environment variable
+
+```bash
+docker run -e ENV_VARIABLE=value <image>
+```
+
+## Automatically remove the container when it stops
+
+```bash
+docker run --rm <image>
+```
