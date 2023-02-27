@@ -20,6 +20,7 @@ docker run <image_name>:<tag>                   # if the image is offical
 docker run <repo_name>/<image_name>:<tag>       # if the image is not official
 ```
 
+
 ![Screenshot 2023-02-27 at 12 41 15 PM](https://user-images.githubusercontent.com/111651161/221498432-bac7c96d-7f67-493b-9128-d09e592542af.png)
 
 First, Docker will check the local host machine to see if the image is already available; if not, it will pull the image from the registry (where images are deployed) and then Docker will create and start a new container based on that image.
