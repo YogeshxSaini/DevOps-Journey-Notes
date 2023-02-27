@@ -41,3 +41,6 @@ No command line argument or environment variable. Picking a Random Color =red
 172.17.0.1 - - [27/Feb/2023 11:07:11] "GET / HTTP/1.1" 200 -
 172.17.0.1 - - [27/Feb/2023 11:07:11] "GET /favicon.ico HTTP/1.1" 404 -
 ```
+
+
+![image](https://user-images.githubusercontent.com/111651161/221553715-4bb2abe1-536d-4f7e-b5c6-31365e6750cd.png)
