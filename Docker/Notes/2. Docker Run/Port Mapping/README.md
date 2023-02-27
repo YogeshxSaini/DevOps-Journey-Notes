@@ -6,17 +6,22 @@ As we all know, containers are isolated system which means containers cannot com
 
 Suppose you have a web application running inside a Docker container, and the application is listening for incoming HTTP requests on port 80. By default, the container's network is isolated, and the application cannot receive requests from outside the container.
 
-To make the webapp accessible from outside the container, you can publish port 80 of container to a port on the host system.
+To make the webapp accessible from outside the container, you can publish port of container to a port on the host system using the command below.
+
+```bash
+docker run -p <port_on_host>:<exposed_port_on_container> <image>
+```
+
 For eg. you can publish port 80 of the container to port 8080 on the host
 
 ```bash
-docker run -p 8080:80 my-web-app
+docker run --name my-web-app -p 8080:80 kodekloud/simple-webapp
 ```
 
 In this example, my-web-app is the name or ID of the container, and -p 8080:80 specifies that port 80 of the container should be mapped to port 8080 on the host system. Once the container is running, you can access the web application by navigating to http://localhost:8080 or http://127.0.0.1:8080 in a web browser.
 
 ```bash
-$ docker run -p 8080:8080 kodekloud/simple-webapp
+$ docker run --name my-web-app -p 8080:80 kodekloud/simple-webapp
  This is a sample web application that displays a colored background.
  A color can be specified in two ways.
 
