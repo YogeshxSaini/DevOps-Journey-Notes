@@ -1,12 +1,3 @@
-<h2> Docker Images Commands</h2>
-
-```bash
-docker images                   # List all the available images
-docker pull <image:tag>         # Pull an image from the registry
-docker push <image:tag>         # Push an image to the registry
-docker rmi <image:tag>          # Remove an image from the local machine
-```
-
 <h2> Docker Container Commands</h2>
 
 ```bash
@@ -19,6 +10,15 @@ docker stop <container_name_or_id>                  # Stop a running container
 docker rm <container_name_or_id>                    # Remove a container
 docker logs <container_name_or_id>                  # Show the logs of a container
 docker exec <container_name_or_id> <command>        # Execute a command inside a container
+```
+
+<h2> Docker Images Commands</h2>
+
+```bash
+docker images                   # List all the available images
+docker pull <image:tag>         # Pull an image from the registry
+docker push <image:tag>         # Push an image to the registry
+docker rmi <image:tag>          # Remove an image from the local machine
 ```
 
 <h2> Docker Network Commands</h2>
