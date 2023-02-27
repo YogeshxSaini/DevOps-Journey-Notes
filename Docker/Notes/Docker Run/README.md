@@ -7,7 +7,7 @@ Here are some of the most commonly used options for the 'docker run' command:
 | Option        | Description                                                       |
 | ------------- | ----------------------------------------------------------------- |
 | `-d`	        | Run the container in detached mode (i.e., in the background)      |
-| `-it:`          | Run the container in interactive mode with a pseudo-TTY attached. |
+| `-it:`        | Run the container in interactive mode with a pseudo-TTY attached. |
 | `-p`	        | Map a port from the container to the host                         |
 | `-v`	        | Mount a volume from the host to the container                     |
 | `-e`	        | Set an environment variable                                       |

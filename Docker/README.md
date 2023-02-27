@@ -1,25 +1,27 @@
 <h2> Docker Container Commands</h2>
 
-| Command                     | Description                                                       |
-| --------------------------- | ----------------------------------------------------------------- |
-| `docker run <image>`        | # Run a new container from an image                              |
-| `docker ps`                 | # List all running                                                |
-| `docker ps -a`              | # List all containers (including stopped ones)                    |
-| `docker create <image>`     | # Create a new container from an image                            |
-| `docker start <container>`  | # Start a stopped container                                       |
-| `docker stop <container>`   | # Stop a running container                                        |
-| `docker rm <container>`     | # Remove a container                                              |
-| `docker logs <container>`   | # Show the logs of a container                                    |
-| `docker exec <container>`   | # Execute a command inside a container                            |
+| Command                                          | Description                                    |
+| ------------------------------------------------ | ---------------------------------------------- |
+| `docker run <image>`                             | # Run a new container from an image            |
+| `docker ps`                                      | # List all running                             |
+| `docker ps -a`                                   | # List all containers (including stopped ones) |
+| `docker create <image>`                          | # Create a new container from an image         |
+| `docker start <container_name_or_id>`            | # Start a stopped container                    |
+| `docker stop <container_name_or_id>`             | # Stop a running container                     |
+| `docker rm <container_name_or_id>`               | # Remove a container                           |
+| `docker logs <container_name_or_id>`             | # Show the logs of a container                 |
+| `docker exec <container_name_or_id> <command>`   | # Execute a command inside a container         |
+| `docker inspect <container_name_or_id>`          | # Display detailed information about container |
 
 <h2> Docker Images Commands</h2>
 
-| Command                        | Description                              |
-| ------------------------------ | ---------------------------------------- |
-| `docker images`                | # List all the available images          |
-| `docker pull <image:tag>`      | # Pull an image from the registry        |
-| `docker push <image:tag>`      | # Push an image to the registry          |
-| `docker rmi <image:tag>`       | # Remove an image from the local machine |
+| Command                        | Description                                |
+| ------------------------------ | ------------------------------------------ |
+| `docker images`                | # List all the available images            |
+| `docker pull <image:tag>`      | # Pull an image from the registry          |
+| `docker push <image:tag>`      | # Push an image to the registry            |
+| `docker rmi <image:tag>`       | # Remove an image from the local machine   |
+| `docker inspect <image:tag>`   | # Display detailed information about image |
 
 
 <h2> Docker Network Commands</h2>
