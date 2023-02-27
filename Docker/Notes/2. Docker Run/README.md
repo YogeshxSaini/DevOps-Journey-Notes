@@ -26,6 +26,26 @@ First, Docker will check the local host machine to see if the image is already a
 
 <img src="https://user-images.githubusercontent.com/111651161/221502653-f4c50e7a-1269-40be-bdec-10970621aa33.png" height="600">
 
+```bash
+$ docker ps
+
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS              NAMES
+c3f279d17e0a        ubuntu:22.04        /bin/bash           7 days ago          Up 25 hours                            desperate_dubinsky
+197387f1b436        ubuntu:22.04        /bin/bash           7 days ago          Up 25 hours                            focused_hamilton
+$ docker commit --change='CMD ["apachectl", "-DFOREGROUND"]' -c "EXPOSE 80" c3f279d17e0a  svendowideit/testimage:version4
+
+f5283438590d
+$ docker run -d svendowideit/testimage:version4
+
+89373736e2e7f00bc149bd783073ac43d0507da250e999f3f1036e0db60817c0
+$ docker ps
+
+CONTAINER ID        IMAGE               COMMAND                 CREATED             STATUS              PORTS              NAMES
+89373736e2e7        testimage:version4  "apachectl -DFOREGROU"  3 seconds ago       Up 2 seconds        80/tcp             distracted_fermat
+c3f279d17e0a        ubuntu:22.04        /bin/bash               7 days ago          Up 25 hours                            desperate_dubinsky
+197387f1b436        ubuntu:22.04        /bin/bash               7 days ago          Up 25 hours                            focused_hamilton
+```
+
 ## List all the running containers
 
 ```bash

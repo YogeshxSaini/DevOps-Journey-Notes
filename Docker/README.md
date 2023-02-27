@@ -15,13 +15,14 @@
 
 <h2> Docker Images Commands</h2>
 
-| Command                        | Description                                |
-| ------------------------------ | ------------------------------------------ |
-| `docker images`                | # List all the available images            |
-| `docker pull <image:tag>`      | # Pull an image from the registry          |
-| `docker push <image:tag>`      | # Push an image to the registry            |
-| `docker rmi <image:tag>`       | # Remove an image from the local machine   |
-| `docker inspect <image:tag>`   | # Display detailed information about image |
+| Command                                                  | Description                                |
+| -------------------------------------------------------- | ------------------------------------------ |
+| `docker images`                                          | # List all the available images            |
+| `docker pull <image:tag>`                                | # Pull an image from the registry          |
+| `docker push <image:tag>`                                | # Push an image to the registry            |
+| `docker rmi <image:tag>`                                 | # Remove an image from the local machine   |
+| `docker inspect <image:tag>`                             | # Display detailed information about image |
+| `docker build -t "name_image:tag" </path/of/Dockerfile>` | # Build an image from Dockerfile           |
 
 
 <h2> Docker Network Commands</h2>
