@@ -24,14 +24,14 @@
 
 **Tips**
 
-1. Remove a running container without stopping it
-    `docker rm -f <container_name_or_id>`
+1. Remove a running container without stopping it.
+`docker rm -f <container_name_or_id>`
 
-2. List all the containers IDs only
-    `docker ps -aq`
+2. List all the containers IDs only.
+`docker ps -aq`
 
-3. Delete all the containers (including running, paused, stopped, exited)
-    `docker rm -f $(docker ps -aq)`
+3. Delete all the containers (including running, paused, stopped, exited).
+`docker rm -f $(docker ps -aq)`
 
-4. Remove multi-container at once
-    `docker rm <container1> <container2> <container3> <container4> <container5> ...`
+4. Remove multi-container at once.
+`docker rm <container1> <container2> <container3> <container4> <container5> ...`
