@@ -26,6 +26,15 @@ First, Docker will check the local host machine to see if the image is already a
 
 <img src="https://user-images.githubusercontent.com/111651161/221502653-f4c50e7a-1269-40be-bdec-10970621aa33.png" height="600">
      
+## Running a container in interactive mode
+
+```bash
+docker run -it ubuntu
+```
+
+This will create a new contaier from the latest Ubuntu image, and opens up an interactive terminal session with that container.
+
+
 <!-- 
 > Note that if the image is hosted on a private registry, you may need to authenticate with the registry using the docker login command before you can pull or run the image.
 
