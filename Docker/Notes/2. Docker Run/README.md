@@ -25,7 +25,7 @@ First, Docker will check the local host machine to see if the image is already a
 <!-- <img src="https://user-images.githubusercontent.com/111651161/221502653-f4c50e7a-1269-40be-bdec-10970621aa33.png" height="600"> -->
 
 ```bash
-$ docker run ubuntu
+$ docker run -d ubuntu
 
 Unable to find image 'ubuntu:latest' locally
 latest: Pulling from library/ubuntu
@@ -34,12 +34,14 @@ Digest: sha256:9a0bdde4188b896a372804be2384015e90e3f84906b750c1a53539b585fbbe7f
 Status: Downloaded newer image for ubuntu:latest
 ```
 
-## List all the running containers
+## List all the containers (including running, paused, stopped and exited)
 
 ```bash
-docker ps
-or
-docker container ls
+docker ps -a         # docker container ls
+
+CONTAINER ID   IMAGE     COMMAND       CREATED          STATUS                      PORTS     NAMES
+ea1b9f3e6f88   ubuntu    "/bin/bash"   11 seconds ago   Exited (0) 10 seconds ago             pensive_pike
+dd0fcbedc0f1   ubuntu    "/bin/bash"   59 seconds ago   Exited (0) 59 seconds ago             magical_ritchie
 ```
 
 ## Running a container in interactive mode
