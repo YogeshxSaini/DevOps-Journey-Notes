@@ -29,6 +29,7 @@
 
     ```bash
     $ docker ps -aq
+    
     b957616beef3
     c4d4a9308cbf
     a92c37487e5d
