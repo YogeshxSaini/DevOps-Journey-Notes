@@ -42,6 +42,10 @@ docker run -it ubuntu
 
 This will create a new contaier from the latest Ubuntu image, and opens up an interactive terminal session with that container.
 
+<img src="https://user-images.githubusercontent.com/111651161/221514839-de0f89d2-9c8e-46b0-b0c2-e798aec45c87.png" height="600">
+
+<img src="https://user-images.githubusercontent.com/111651161/221514839-de0f89d2-9c8e-46b0-b0c2-e798aec45c87.png" height="600">
+
 ## Giving the container a name
 
 ```bash
