@@ -40,7 +40,7 @@
 | `docker volume create <volume>`   | # Create a new volume                      |
 | `docker volume ls`                | # List all volumes                         |
 | `docker volume inspect <volume>`  | # Show detailed information about a volume |
-| `docker volume rm <volume`>       | # Remove a volume                          |
+| `docker volume rm <volume>`       | # Remove a volume                          |
 
 
 <h2> Docker Compose Commands</h2>
