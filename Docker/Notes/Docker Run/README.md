@@ -4,14 +4,15 @@ The docker run command is used to create and start a new container from an image
 
 Here are some of the most commonly used options for the 'docker run' command:
 
-| Option        | Description                                                  |
-| ------------- | ------------------------------------------------------------ |
-| '-d'	        | Run the container in detached mode (i.e., in the background) |
-| '-p'	        | Map a port from the container to the host                    |
-| '-v'	        | Mount a volume from the host to the container                |
-| '-e'	        | Set an environment variable                                  |
-| '--name'	    | Give the container a name                                    |
-| '--rm'	    | Automatically remove the container when it stops             |
+| Option        | Description                                                       |
+| ------------- | ----------------------------------------------------------------- |
+| '-d'	        | Run the container in detached mode (i.e., in the background)      |
+| -it:          | Run the container in interactive mode with a pseudo-TTY attached. |
+| '-p'	        | Map a port from the container to the host                         |
+| '-v'	        | Mount a volume from the host to the container                     |
+| '-e'	        | Set an environment variable                                       |
+| '--name'	    | Give the container a name                                         |
+| '--rm'	    | Automatically remove the container when it stops                  |
 
 **SIMPLE SYNTEX**
 ```bash
@@ -20,6 +21,10 @@ docker run <repo_name>/<image_name>:<tag>       # if the image is not official
 ```
 
 ![docker run ubuntu](../../../../../../Desktop/Screenshot%202023-02-27%20at%2012.41.15%20PM.png)
+
+First, Docker will check the local host machine to see if the image is already available; if not, it will pull the image from the registry (where images are deployed) and then Docker will create and start a new container based on that image.
+
+
 <!-- 
 > Note that if the image is hosted on a private registry, you may need to authenticate with the registry using the docker login command before you can pull or run the image.
 
