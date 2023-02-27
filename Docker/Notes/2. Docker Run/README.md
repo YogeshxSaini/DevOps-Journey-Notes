@@ -59,6 +59,14 @@ This will create a new contaier from the latest Ubuntu image, and opens up an in
 docker run --name <container_name> <image>
 ```
 
+You can't change names of the container after using this command.
+
+
+Rename a container  
+```bash
+docker rename <old_name> <new_name>
+```
+
 ## Mapping a port from the container to the host
 
 ```bash
