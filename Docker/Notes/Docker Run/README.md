@@ -6,13 +6,13 @@ Here are some of the most commonly used options for the 'docker run' command:
 
 | Option        | Description                                                       |
 | ------------- | ----------------------------------------------------------------- |
-| '-d'	        | Run the container in detached mode (i.e., in the background)      |
-| -it:          | Run the container in interactive mode with a pseudo-TTY attached. |
-| '-p'	        | Map a port from the container to the host                         |
-| '-v'	        | Mount a volume from the host to the container                     |
-| '-e'	        | Set an environment variable                                       |
-| '--name'	    | Give the container a name                                         |
-| '--rm'	    | Automatically remove the container when it stops                  |
+| `-d`	        | Run the container in detached mode (i.e., in the background)      |
+| `-it:`          | Run the container in interactive mode with a pseudo-TTY attached. |
+| `-p`	        | Map a port from the container to the host                         |
+| `-v`	        | Mount a volume from the host to the container                     |
+| `-e`	        | Set an environment variable                                       |
+| `--name`	    | Give the container a name                                         |
+| `--rm`	    | Automatically remove the container when it stops                  |
 
 **SYNTEX**
 ```bash
