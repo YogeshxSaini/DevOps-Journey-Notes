@@ -50,10 +50,10 @@
 
 | Command                           | Description                                                     |
 | --------------------------------- | --------------------------------------------------------------- |
-|`docker-compose up`                | # Start all the services defined in a Compose file              |
-|`docker-compose down`              | # Stop all the services defined in a Compose file               |
-|`docker-compose ps`                | # List all the containers managed by a Compose file             |
-|`docker-compose logs`              | # Show the logs of all the containers managed by a Compose file |
+|`docker compose up`                | # Start all the services defined in a Compose file              |
+|`docker compose down`              | # Stop all the services defined in a Compose file               |
+|`docker compose ps`                | # List all the containers managed by a Compose file             |
+|`docker compose logs`              | # Show the logs of all the containers managed by a Compose file |
 
 <h2> Docker Swarm Commands</h2>
 
