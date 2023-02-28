@@ -62,6 +62,6 @@
 |`docker swarm init`                | # Initialize a new Swarm cluster                   |
 |`docker swarm join`                | # Join a node to an existing Swarm cluster         |
 |`docker swarm leave`               | # Remove a node from a Swarm cluster               |
-|`docker swarm deploy`              | # Deploy a stack to a Swarm cluster                |
-|`docker swarm services`            | # List all the services running in a Swarm cluster |
-|`docker swarm nodes`               | # List all the nodes in a Swarm cluster            |
+|`docker stack deploy`              | # Deploy a stack to a Swarm cluster                |
+|`docker service ls`                | # List all the services running in a Swarm cluster |
+|`docker node ls`                   | # List all the nodes in a Swarm cluster            |
