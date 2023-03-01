@@ -17,7 +17,7 @@ Here are some of the most commonly used options for the 'docker run' command:
 | `--rm`	    | Automatically remove the container when it stops                  |
 
 
-> Use the --network option to specify the network to use for the container.
+> Use the --network option to specify the network to use for the container.  
 > Use the --restart option to specify the restart policy for the container.
 
 ```bash
