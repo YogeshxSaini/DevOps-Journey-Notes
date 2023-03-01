@@ -38,7 +38,8 @@ Some **common arguments** that can be used in a Dockerfile:
 | Argument | Description |
 | ----------- | ---------- |
 | FROM | Specifies the base image to use for the new image |
-| MAINTAINER | Specifies the author of the image |
+| MAINTAINER(Deprecated) | Specifies the author of the image |
+| AUTHOR | Specifies the author of the image |
 | RUN | Runs a command within the container |
 | CMD | Specifies the command to run when the container is started |
 | LABEL | Adds metadata to the image |
@@ -51,13 +52,15 @@ Some **common arguments** that can be used in a Dockerfile:
 | USER | Sets the user or UID to use when running the container |
 | WORKDIR | Sets the working directory for the container |
 
+> MAINTAINER has been deprecated in favour of using the LABEL instruction.
+
 ## Notes
 
-1. A Dockerfile begins with a base image, which is the starting point for building the new image. The base image is specified with the FROM instruction, which is always the first instruction in a Dockerfile.
+1. A Dockerfile begins with a base image, which is the starting point for building the new image. The base image is specified with the `FROM` instruction, which is always the first instruction in a Dockerfile.
 
 2. Dockerfiles typically contain a series of instructions that are executed in order. Each instruction creates a new layer in the image, which allows for efficient reuse of common elements across multiple images.
 
-3. Some common instructions in a Dockerfile include RUN, which executes a command within the container, COPY, which copies files from the host machine into the container, and EXPOSE, which specifies which ports the container will listen on.
+3. Some common instructions in a Dockerfile include `RUN`, which executes a command within the container, COPY, which copies files from the host machine into the container, and `EXPOSE`, which specifies which ports the container will listen on.
 
 4. Dockerfiles can also use variables and arguments, which can be passed in at build time to customize the image.
 
