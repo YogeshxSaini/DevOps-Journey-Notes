@@ -52,6 +52,8 @@ Some **common arguments** that can be used in a Dockerfile:
 | USER | Sets the user or UID to use when running the container |
 | WORKDIR | Sets the working directory for the container |
 
+[More instruction here](https://docs.docker.com/engine/reference/builder/)
+
 > MAINTAINER has been deprecated in favour of using the LABEL instruction.
 
 ## Notes
