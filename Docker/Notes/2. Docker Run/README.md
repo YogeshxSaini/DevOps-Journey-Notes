@@ -1,6 +1,8 @@
 <h1 align="center"> Docker Run </h1>
 
-The docker run command is used to create and start a new container from an image. When you run this command, Docker will download the image (if it's not already available) and create a new container based on that image.
+The docker run command is used to create and start a new container from an image. When you run this command, Docker will download the image (if it's not already available) and create a new container based on that image.  
+By default, the container is started in the foreground and attached to the current terminal.  
+The docker run command can be customized with a variety of options to configure the container's runtime behavior.  
 
 Here are some of the most commonly used options for the 'docker run' command:
 
@@ -13,6 +15,9 @@ Here are some of the most commonly used options for the 'docker run' command:
 | `-e`	        | Set an environment variable                                       |
 | `--name`	    | Give the container a name                                         |
 | `--rm`	    | Automatically remove the container when it stops                  |
+
+
+>Use the --network option to specify the network to use for the container.  Use the --restart option to specify the restart policy for the container.
 
 ```bash
 docker run <image_name>:<tag>                   # if the image is offical
