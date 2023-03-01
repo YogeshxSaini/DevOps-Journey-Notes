@@ -31,6 +31,18 @@ CMD ["python", "app.py"]
 EXPOSE 5000
 ```
 
+This Dockerfile does the following:
+
+Specifies the base image to use (`python:3.9-slim-buster`).
+Sets the working directory within the container (`/app`).
+Copies the `requirements.txt` file from the host into the container.
+Installs the required packages within the container using `pip`.
+Copies the `app.py` file from the host into the container.
+Sets the command to run when the container starts (`python app.py`).
+Exposes port 5000 for the application.
+
+<------------------------------------------------------------------------>
+
 > The instruction is not case-sensitive. However, convention is for them to be UPPERCASE to distinguish them from arguments more easily.
 
 Some **common arguments** that can be used in a Dockerfile:
@@ -67,5 +79,9 @@ Some **common arguments** that can be used in a Dockerfile:
 4. Dockerfiles can also use variables and arguments, which can be passed in at build time to customize the image.
 
 5. Once a Dockerfile is written, it can be built into an image using the docker build command. This command takes the Dockerfile as input and produces a new image as output.
+
+```bash
+docker build -t <image:tag> /path/of/Dockerfile
+```
 
 6. Dockerfiles are often versioned and stored alongside source code in a version control system like Git, which allows for easy collaboration and reproducibility across different environments.
