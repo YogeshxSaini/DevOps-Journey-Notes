@@ -33,15 +33,14 @@ EXPOSE 5000
 
 This Dockerfile does the following:
 
-Specifies the base image to use (`python:3.9-slim-buster`).
-Sets the working directory within the container (`/app`).
-Copies the `requirements.txt` file from the host into the container.
-Installs the required packages within the container using `pip`.
-Copies the `app.py` file from the host into the container.
-Sets the command to run when the container starts (`python app.py`).
-Exposes port 5000 for the application.
+1. Specifies the base image to use (`python:3.9-slim-buster`).
+2. Sets the working directory within the container (`/app`).
+3. Copies the `requirements.txt` file from the host into the container.
+4. Installs the required packages within the container using `pip`.
+5. Copies the `app.py` file from the host into the container.
+6. Sets the command to run when the container starts (`python app.py`).
+7. Exposes port 5000 for the application.
 
-<------------------------------------------------------------------------>
 
 > The instruction is not case-sensitive. However, convention is for them to be UPPERCASE to distinguish them from arguments more easily.
 
