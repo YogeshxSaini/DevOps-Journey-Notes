@@ -31,25 +31,30 @@
 
 | Command | Description | Syntax |
 | ------- | ----------- | ------ |
-| sudo	| Execute a command with superuser privileges | sudo [command] |
-| adduser | Add a user to the system | adduser [username] |
-| usermod | Modify a user account | usermod [options] [username] |
-| passwd | Change user password | passwd [username] |
-| whoami | Print current user name | whoami |
+| `sudo`	| Execute a command with superuser privileges | `sudo [command]` |
+| `adduser` | Add a user to the system | `adduser [username]` |
+| `usermod` | Modify a user account | `usermod [options] [username]` |
+| `passwd` | Change user password | `passwd [username]` |
+| `whoami` | Print current user name | `whoami` |
 
 ## Package Management
 
 | Command | Description | Syntax |
 | ------- | ----------- | ------ |
-| apt-get | Install or remove packages from repositories | sudo apt-get [options] [package name(s)] |
-| dpkg | Install, remove or query installed packages | sudo dpkg [options] [package name(s)] |
-| snap | Install or manage snap packages | sudo snap [options] [package name(s)] |
-| yum | Install or remove packages from repositories | sudo yum [options] [package name(s)] |
+| `apt-get` | Install or remove packages from repositories | `sudo apt-get [options] [package name(s)]` |
+| `dpkg` | Install, remove or query installed packages | `sudo dpkg [options] [package name(s)]` |
+| `snap` | Install or manage snap packages | `sudo snap [options] [package name(s)]` |
+| `yum` | Install or remove packages from repositories | `sudo yum [options] [package name(s)]` |
 
 ## Network Management
 
 | Command | Description | Syntax |
 | ------- | ----------- | ------ |
+| `ping` | Test network connectivity| `ping [options] [host]` |
+| `ip` | View or configure network interfaces | `ip [options] [command]` |
+| `netstat` | Display network connections and statistics | `netstat [options]` |
+| `ss` | Display socket statistics | `ss [options]` |
+| `traceroute` | Trace the path to a network host	| `traceroute [options] [host]` |
 
 ## Process Management
 
