@@ -46,3 +46,22 @@
 | snap | Install or manage snap packages | sudo snap [options] [package name(s)] |
 | yum | Install or remove packages from repositories | sudo yum [options] [package name(s)] |
 
+## Network Management
+
+| Command | Description | Syntax |
+| ------- | ----------- | ------ |
+
+## Process Management
+
+| Command | Description | Syntax |
+| ------- | ----------- | ------ |
+
+## Text Processing
+
+| Command | Description | Syntax |
+| ------- | ----------- | ------ |
+
+## File Compression
+
+| Command | Description | Syntax |
+| ------- | ----------- | ------ |
