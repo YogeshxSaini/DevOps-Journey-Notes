@@ -58,13 +58,23 @@
 
 ## Process Management
 
-| Command | Description | Syntax |
-| ------- | ----------- | ------ |
+| Command | Description                                 |               Syntax              |
+| ------- | ------------------------------------------- | --------------------------------- |
+| `ps`	 | Display information about running processes	| `ps [options]`                      |
+| `top`	 | Display system resource usage and processes	| `top`                               |
+| `kill` | Send a signal to a process to terminate it	| `kill [options] [process ID]`       |
+| `pkill`| Send a signal to a process by name	        | `pkill [options] [process name]`    |
+| `nice` | Set the priority of a process	            | `nice [options] [command]`          |
 
 ## Text Processing
 
 | Command | Description | Syntax |
 | ------- | ----------- | ------ |
+| `grep` | Search for a pattern in a file or input	    | `grep [options] [pattern] [file(s)]`  |
+| `sed`	 | tream editor for filtering and transforming	| `sed [options] [command] [file(s)]`   |
+| `awk`	 | Pattern scanning and processing language	    | `awk [options] [script] [file(s)]`    |
+| `cut`	 | Extract sections from each line of a file	| `cut [options] [file(s)]`             |
+| `sort` | Sort lines of text	                        | `sort [options] [file(s)]`            |
 
 ## File Compression
 
