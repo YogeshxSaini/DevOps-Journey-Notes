@@ -41,15 +41,8 @@
 
 | Command | Description | Syntax |
 | ------- | ----------- | ------ |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
+| apt-get | Install or remove packages from repositories | sudo apt-get [options] [package name(s)] |
+| dpkg | Install, remove or query installed packages | sudo dpkg [options] [package name(s)] |
+| snap | Install or manage snap packages | sudo snap [options] [package name(s)] |
+| yum | Install or remove packages from repositories | sudo yum [options] [package name(s)] |
 
