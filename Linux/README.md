@@ -31,17 +31,11 @@
 
 | Command | Description | Syntax |
 | ------- | ----------- | ------ |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
-|         |             |        |
+| sudo	| Execute a command with superuser privileges | sudo [command] |
+| adduser | Add a user to the system | adduser [username] |
+| usermod | Modify a user account | usermod [options] [username] |
+| passwd | Change user password | passwd [username] |
+| whoami | Print current user name | whoami |
 
 ## Package Management
 
