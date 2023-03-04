@@ -80,3 +80,7 @@
 
 | Command | Description | Syntax |
 | ------- | ----------- | ------ |
+| `gzip`	| Compress or decompress files using gzip	| `gzip [options] [file(s)]`            |
+| `tar`	    | Create or extract tar archives	        | `tar [options] [archive] [file(s)]`   |
+| `zip`	    | Create, modify, or extract zip archives	| `zip [options] [archive] [file(s)]`   |
+| `unzip`	| Extract files from a zip archive	        | `unzip [options] [archive]`           |
