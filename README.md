@@ -10,6 +10,8 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Tools and Languages](#🛠️-tools-and-languages)
+- [License](#📜-license)
 
 ## 📝 Description
 
