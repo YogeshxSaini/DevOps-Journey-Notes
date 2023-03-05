@@ -34,14 +34,14 @@ Contributions are always welcome! If you find an error or want to add a new topi
 
 # Prerequisite
 
-## Docker
+- ## Docker
 <img align="right" src="https://user-images.githubusercontent.com/51878265/200594916-47ba8a4c-fb94-4953-b179-dfb542df9499.png" height="100" alt="docker">
 
 - [Notes](Docker/Notes)
 - [Commands](Docker/README.md)
 
 
-## Linux
+- ## Linux
 <img align="right" src="https://user-images.githubusercontent.com/51878265/209197882-51406a8f-04ff-4c53-a362-ac32ae8566ad.png" height="100" alt="linux"> 
 
 - [Notes](Linux/Notes)
