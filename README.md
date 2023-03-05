@@ -1,5 +1,9 @@
 <h1 align="center"> DevOps Journey Notes </h1>
 
+![DevOps](https://user-images.githubusercontent.com/111651161/222942055-aa046e3d-f601-4476-9ffd-88d056c28ac9.jpeg)
+
+![DevOps](https://user-images.githubusercontent.com/111651161/222942055-aa046e3d-f601-4476-9ffd-88d056c28ac9.jpeg)
+
 <p align="centre"> Welcome to my DevOps Journey Notes repository! This is where I keep track of all my learning and notes related to DevOps. </p>
 
 ## Table of Contents
@@ -35,5 +39,10 @@ Contributions are always welcome! If you find an error or want to add a new topi
 
 - [Notes](Docker/Notes)
 - [Commands](Docker/README.md)
-- [Compose/Stack Files](https://github.com/)
-- [Dockerfile](https://github.com/)
+
+
+## Linux
+<img align="right" src="https://user-images.githubusercontent.com/51878265/209197882-51406a8f-04ff-4c53-a362-ac32ae8566ad.png" height="100" alt="linux"> 
+
+- [Notes](Linux/Notes)
+- [Commands](Linux/README.md)
