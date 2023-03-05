@@ -6,12 +6,12 @@ Welcome to my DevOps Journey Notes repository! This is where I keep track of all
 
 ## 📖 Table of Contents
 
-- [Description](#📝-description)
-- [Installation](#🚀-installation)
-- [Usage](#📚-usage)
-- [Contributing](#🤝-contributing)
-- [Tools and Languages](#🛠️-tools-and-languages)
-- [License](#📜-license)
+- [Description](#-description)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Contributing](#-contributing)
+- [Tools and Languages](#-tools-and-languages)
+- [License](#-license)
 
 ## 📝 Description
 
