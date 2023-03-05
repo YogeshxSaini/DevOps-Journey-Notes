@@ -22,7 +22,7 @@ This repository contains all my notes related to DevOps, including tools, techno
 There is no installation required for this repository. You can simply clone the repository to your local machine and start exploring the notes.
 
 ```sh
-git clone https://github.com/your-username/DevOps-Journey-Notes.git
+git clone https://github.com/YogeshxSaini/DevOps-Journey-Notes.git
 ```
 
 ## 📚 Usage
