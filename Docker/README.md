@@ -23,6 +23,7 @@
 | `docker rmi <image:tag>`                                 | # Remove an image from the local machine   |
 | `docker inspect <image:tag>`                             | # Display detailed information about image |
 | `docker build -t "name_image:tag" </path/of/Dockerfile>` | # Build an image from Dockerfile           |
+| `docker image prune`                                     | # Remove all unused images                 |
 
 
 <h2> Docker Network Commands</h2>
