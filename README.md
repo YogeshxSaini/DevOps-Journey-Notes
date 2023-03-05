@@ -40,7 +40,7 @@ The following is a list of tools and languages I have learned as part of my DevO
 
 ## 🐳 Docker
 <!-- <img align="right" src="https://user-images.githubusercontent.com/51878265/200594916-47ba8a4c-fb94-4953-b179-dfb542df9499.png" height="100" alt="docker"> -->
-<img align="right" src="https://user-images.githubusercontent.com/51878265/200594916-47ba8a4c-fb94-4953-b179-dfb542df9499.png" height="100" alt="docker">
+<img align="right" src="https://user-images.githubusercontent.com/111651161/222945002-6cd77345-91da-4d9e-8005-929e7a4a32a3.png" height="100" alt="docker">
 
 - [Notes](Docker/Notes)
 - [Commands](Docker/README.md)
