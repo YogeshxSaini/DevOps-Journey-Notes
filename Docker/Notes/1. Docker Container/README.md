@@ -4,7 +4,7 @@
 | ------------------------------------------------ | ---------------------------------------------- |
 | `docker run <image>`                             | # Run a new container from an image            |
 | `docker ps`                                      | # List all running                             |
-| `docker ps -a`                                   | # List all containers (including stopped ones) |
+| `docker ps -a` or `docker ps -all`               | # List all containers (including stopped ones) |
 | `docker create <image>`                          | # Create a new container from an image         |
 | `docker pause <container_name_or_id>`            | # Pause a running container                    |
 | `docker start <container_name_or_id>`            | # Start a stopped container                    |
@@ -13,6 +13,7 @@
 | `docker logs <container_name_or_id>`             | # Show the logs of a container                 |
 | `docker exec <container_name_or_id> <command>`   | # Execute a command inside a container         |
 | `docker inspect <container_name_or_id>`          | # Display detailed information about container |
+| `docker container stats`                         | # View resource usage stats                    |
 
 
 **Notes**
