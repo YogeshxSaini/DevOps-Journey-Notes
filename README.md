@@ -1,4 +1,5 @@
 <h1 align="center"> DevOps Journey Notes </h1>
+![DevOps](https://user-images.githubusercontent.com/111651161/222942055-aa046e3d-f601-4476-9ffd-88d056c28ac9.jpeg)
 
 <p align="centre"> This repository contains all the notes, code snippets, and resources that I have collected and created while learning DevOps. It covers topics such as continuous integration/continuous delivery (CI/CD), infrastructure as code (IaC), containerization, automation, monitoring, and more.</p>
 
