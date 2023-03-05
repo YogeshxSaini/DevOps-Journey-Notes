@@ -25,7 +25,7 @@ git clone https://github.com/your-username/DevOps-Journey-Notes.git
 
 ## Usage
 
-The notes are organized in folders according to the topic. Each folder contains a [README.md](README.md) file that explains the topic in detail. You can navigate to the folder of your interest and explore the notes.
+The notes are organized in folders according to the topic. Each folder contains a [README.md] file that explains the topic in detail. You can navigate to the folder of your interest and explore the notes.
 
 Feel free to use the notes as a reference for your projects or as a learning resource. You can also contribute to the repository by submitting pull requests.
 
