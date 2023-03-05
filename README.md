@@ -2,7 +2,7 @@
 
 ![DevOps](https://user-images.githubusercontent.com/111651161/222942055-aa046e3d-f601-4476-9ffd-88d056c28ac9.jpeg)
 
-<p align="centre"> Welcome to my DevOps Journey Notes repository! This is where I keep track of all my learning and notes related to DevOps. </p>
+Welcome to my DevOps Journey Notes repository! This is where I keep track of all my learning and notes related to DevOps.
 
 ## 📖 Table of Contents
 
