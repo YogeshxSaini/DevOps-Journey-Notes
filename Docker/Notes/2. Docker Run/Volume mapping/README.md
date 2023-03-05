@@ -14,6 +14,11 @@ For example, you could use the docker run command with the -v option to map a di
 docker run -v /my/host/data:/var/lib/mysql my-db-app
 ```
 
+The above command is an old style, the new way to is to use '--mount' option 
+
+```bash
+docker run --mount type-bind,source=/location/on/host,target=/location/on/container mysql
+```
 In this example, /my/host/data is the path to the directory on the host system that will be used as the data volume, and /var/lib/mysql is the directory inside the container where the database files are stored. Once the container is running, any changes made to the database files inside the container will be persisted on the host system, and will be available to other containers that use the same data volume.
 
 ![Screenshot 2023-02-27 at 5 10 45 PM](https://user-images.githubusercontent.com/111651161/221555240-cfa84d86-53c9-422b-893a-a873091ee0c8.jpg)
