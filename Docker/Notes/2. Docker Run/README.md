@@ -4,17 +4,22 @@ The docker run command is used to create and start a new container from an image
 By default, the container is started in the foreground and attached to the current terminal.  
 The docker run command can be customized with a variety of options to configure the container's runtime behavior.  
 
+Syntex:
+```sh
+docker run [options]
+```
+
 Here are some of the most commonly used options for the 'docker run' command:
 
-| Option        | Description                                                       |
-| ------------- | ----------------------------------------------------------------- |
-| `-d`	        | Run the container in detached mode (i.e., in the background)      |
-| `-it:`        | Run the container in interactive mode with a pseudo-TTY attached. |
-| `-p`	        | Map a port from the container to the host                         |
-| `-v`	        | Mount a volume from the host to the container                     |
-| `-e`	        | Set an environment variable                                       |
-| `--name`	    | Give the container a name                                         |
-| `--rm`	    | Automatically remove the container when it stops                  |
+| Option                                                        | Description                                                       |
+| ------------------------------------------------------------- | ----------------------------------------------------------------- |
+| `docke run -d <image_name>`                                   | Run the container in detached mode (i.e., in the background)      |
+| `docker run -it <image_name>`                                 | Run the container in interactive mode with a pseudo-TTY attached. |
+| `docker run -p <host_port>:<container_port> <image_name>`	    | Map a port from the container to the host                         |
+| `docke run -v <host_volumes_path>:<>container_volume_path>`	| Mount a volume from the host to the container                     |
+| `docker run -e ENV_VARIABLE=variable <image_name>`	        | Set an environment variable                                       |
+| `docker run --name <container_name> <image_name>`	            | Give the container a name                                         |
+| `docker run --rm <image_name>`	                            | Automatically remove the container when it stops                  |
 
 
 > Use the --network option to specify the network to use for the container.  
@@ -59,6 +64,12 @@ This will create a new contaier from the latest Ubuntu image, and opens up an in
 
 <img src="https://user-images.githubusercontent.com/111651161/221514839-de0f89d2-9c8e-46b0-b0c2-e798aec45c87.png" height="600">
 
+
+## Rename a container  
+```bash
+docker rename <old_name> <new_name>
+```
+
 ## Giving the container a name
 
 ```bash
@@ -66,12 +77,6 @@ docker run --name <container_name> <image>
 ```
 
 You can't change names of the container after using this command.
-
-
-Rename a container  
-```bash
-docker rename <old_name> <new_name>
-```
 
 ## Mapping a port from the container to the host
 
@@ -88,7 +93,7 @@ docker run -v /path/on/host:/path/in/container <image>
 ## Setting an environment variable
 
 ```bash
-docker run -e ENV_VARIABLE=value <image>
+docker run -e ENV_VARIABLE=value <image_name>
 ```
 
 ## Automatically remove the container when it stops
