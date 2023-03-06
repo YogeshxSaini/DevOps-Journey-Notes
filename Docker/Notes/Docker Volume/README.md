@@ -59,3 +59,8 @@ This allows the container to access files and directories from the host system. 
 docker run -v /host/path:/container/path <container-name/id>
 ```
 
+This will mount the directory at /host/path on the host system to /container/path inside the container.
+
+## Conclusion
+
+Docker storage provides a range of storage options for containerized applications, including storage drivers, volumes, and bind mounts. Docker volumes provide a way to share data between containers and the host system, while bind mounts allow containers to access files and directories from the host system. By leveraging Docker storage options, you can build and deploy containerized applications with efficient, scalable, and reliable storage.
