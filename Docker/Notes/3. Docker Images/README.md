@@ -28,7 +28,7 @@ You can work with Docker images using the Docker CLI. Here are some common Docke
 | `docker push <image:tag>`                                | # Push an image to the registry            |
 | `docker rmi <image:tag>`                                 | # Remove an image from the local machine   |
 | `docker inspect <image:tag>`                             | # Display detailed information about image |
-| `docker build -t "name_image:tag" </path/of/Dockerfile>` | # Build an image from Dockerfile           |
+| `docker build -t <name_image:tag> </path/of/Dockerfile>` | # Build an image from Dockerfile           |
 | `docker tag <image-id> <image-name:tag>`                 | # Create a new tag for specified image     |
 
 **Note**
