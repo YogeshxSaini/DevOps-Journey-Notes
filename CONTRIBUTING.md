@@ -8,7 +8,7 @@ Before submitting your contribution, please make sure to read and follow the gui
 
 ### Issues
 
-If you find a bug or have a feature request, please [open an issue](https://github.com/YogeshxSaini/DevOps-Journey-Notes/issues) to discuss it before submitting a pull request. This will help to avoid duplicate efforts and ensure that your contribution aligns with the goals of the repository.
+If you find a mistake or error in notes, please [open an issue](https://github.com/YogeshxSaini/DevOps-Journey-Notes/issues) to discuss it before submitting a pull request. This will help to avoid duplicate efforts and ensure that your contribution aligns with the goals of the repository.
 
 ### Pull Requests
 

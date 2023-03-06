@@ -36,6 +36,7 @@
 | `docker network inspect <network>`                            | # Show detailed information about a network |
 | `docker network connect <network> <container_name_or_id>`     | # Connect a container to a network          |
 | `docker network disconnect <network> <container_name_or_id>`  | # Disconnect a container from a network     |
+| `docker network rm <network>`                                 | # Remove the network from host              |
 
 
 <h2> Docker Volume Commands</h2>
