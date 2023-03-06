@@ -21,3 +21,31 @@ To create a Docker volume, use the following command:
 ```bash
 docker volume create <volume-name>
 ```
+
+This will create a new Docker volume with the specified name. You can then use the volume with the docker run command:
+
+```bash
+docker run -v <volume-name>:/path/to/mount <container-image>
+```
+
+This will mount the Docker volume at the specified path inside the container.
+
+### Managing Docker volumes
+
+You can list all the Docker volumes on your system using the following command:
+
+```bash
+docker volume ls
+```
+
+You can inspect the details of a specific Docker volume using the following command:
+
+```bash
+docker volume inspect <volume-name>
+```
+
+You can remove a Docker volume using the following command:
+
+```bash
+docker volume rm <volume-name>
+```
