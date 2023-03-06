@@ -1,5 +1,26 @@
 <h1 align="center"> Docker Images </h1>
 
+Docker images are the building blocks for Docker containers. An image is a read-only template that contains a set of instructions for creating a Docker container. Docker images are used to build, package, and distribute containerized applications.
+
+## Image layers
+
+Docker images are composed of multiple layers, each of which represents a change to the previous layer.
+
+When you create a new Docker image, each instruction in the Dockerfile creates a new layer. This allows Docker to reuse layers from other images when building new images, which helps to optimize image size and reduce build times.
+
+When an image is pulled from a Docker registry, only the layers that are not already present on the local system are downloaded. This allows for faster downloads and reduces the amount of storage required for images.
+
+## Docker Image Registries
+
+Docker images can be stored in a Docker registry, which is a server that stores Docker images. Docker Hub is a public Docker registry that contains thousands of images that can be used for building containers.
+
+Docker also allows for the creation of private Docker registries, which can be used for storing and sharing private images within an organization.
+
+
+## Working with Docker images
+
+You can work with Docker images using the Docker CLI. Here are some common Docker image commands:
+
 | Command                                                  | Description                                |
 | -------------------------------------------------------- | ------------------------------------------ |
 | `docker images`                                          | # List all the available images            |
@@ -8,7 +29,7 @@
 | `docker rmi <image:tag>`                                 | # Remove an image from the local machine   |
 | `docker inspect <image:tag>`                             | # Display detailed information about image |
 | `docker build -t "name_image:tag" </path/of/Dockerfile>` | # Build an image from Dockerfile           |
-
+| `docker tag <image-id> <image-name:tag>`                 | # Create a new tag for specified image     |
 
 **Note**
 
@@ -39,3 +60,7 @@
     Deleted: sha256:8d8dceacec7085abcab1f93ac1128765bc6cf0caac334c821e01546bd96eb741
     Deleted: sha256:ccdbb80308cc5ef43b605ac28fac29c6a597f89f5a169bbedbb8dec29c987439
     ```
+
+## Conclusion
+
+Docker images are the building blocks of Docker containers. They are created using a layered architecture, which allows for efficient and optimized image builds. Docker images are stored in a Docker image registry and can be accessed and manipulated using the Docker CLI. By working with Docker images, you can easily create, share, and deploy containerized applications.
