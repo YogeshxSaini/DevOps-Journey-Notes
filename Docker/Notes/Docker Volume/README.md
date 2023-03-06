@@ -49,3 +49,13 @@ You can remove a Docker volume using the following command:
 ```bash
 docker volume rm <volume-name>
 ```
+
+## Docker bind mounts
+
+Docker bind mounts provide a way to mount a directory from the host system into a Docker container.  
+This allows the container to access files and directories from the host system. Docker bind mounts are created using the `-v` option with the docker run command:
+
+```
+docker run -v /host/path:/container/path <container-name/id>
+```
+
