@@ -11,3 +11,12 @@ Docker Swarm offers several features that make it a powerful tool for managing c
 - Load balancing: Docker Swarm provides built-in load balancing for distributing traffic across multiple containers running on different nodes.
 - Service discovery: Docker Swarm includes a built-in DNS server for service discovery within the cluster.
 - Rolling updates: Docker Swarm supports rolling updates, which allow you to update your applications without downtime by gradually updating containers across the cluster.
+
+## Components of Docker Swarm
+
+Docker Swarm consists of the following components:
+
+- **Swarm manager**: The Swarm manager is responsible for managing the cluster and coordinating tasks across the nodes.
+- **Swarm nodes**: The Swarm nodes are the individual Docker hosts that make up the cluster.
+- **Service**: A service is a containerized application that is deployed and managed by Docker Swarm.
+- **Task**: A task is a running instance of a service on a particular node.
