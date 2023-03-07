@@ -20,3 +20,8 @@ Docker Swarm consists of the following components:
 - **Swarm nodes**: The Swarm nodes are the individual Docker hosts that make up the cluster.
 - **Service**: A service is a containerized application that is deployed and managed by Docker Swarm.
 - **Task**: A task is a running instance of a service on a particular node.
+
+## Working with Docker Swarm
+
+To create and manage a Docker Swarm cluster, you can use the Docker CLI or a tool like Docker Compose. Here are some common Docker Swarm commands:
+
