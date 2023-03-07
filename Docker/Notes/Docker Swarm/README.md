@@ -25,3 +25,15 @@ Docker Swarm consists of the following components:
 
 To create and manage a Docker Swarm cluster, you can use the Docker CLI or a tool like Docker Compose. Here are some common Docker Swarm commands:
 
+| Command                            | Description                                                  |
+| ---------------------------------- | ------------------------------------------------------------ |
+| `docker swarm init`                | # Initialize a new Swarm cluster                             |
+| `docker swarm join`                | # Join a node to an existing Swarm cluster                   |
+| `docker swarm leave`               | # Remove a node from a Swarm cluster                         |
+| `docker stack deploy`              | # Deploy a stack to a Swarm cluster                          |
+| `docker service create`            | # Creates a new service in the Swarm cluster                 |
+| `docker service ls`                | # List all the services running in a Swarm cluster           |
+| `docker service ls`                | # Lists all the services running in the Swarm cluster        |
+| `docker service scale`             | # Scales a service up or down by adding or removing replicas |
+| `docker service update`            | # Updates a service by changing its configuration            |
+| `docker node ls`                   | # List all the nodes in a Swarm cluster                      |
