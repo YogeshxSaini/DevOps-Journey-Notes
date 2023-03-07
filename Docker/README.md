@@ -51,20 +51,21 @@
 
 <h2> Docker Compose Commands</h2>
 
-| Command                           | Description                                                     |
-| --------------------------------- | --------------------------------------------------------------- |
-|`docker compose up`                | # Start all the services defined in a Compose file              |
-|`docker compose down`              | # Stop all the services defined in a Compose file               |
-|`docker compose ps`                | # List all the containers managed by a Compose file             |
-|`docker compose logs`              | # Show the logs of all the containers managed by a Compose file |
+| Command                            | Description                                                     |
+| ---------------------------------- | --------------------------------------------------------------- |
+| `docker compose up`                | # Start all the services defined in a Compose file              |
+| `docker compose down`              | # Stop all the services defined in a Compose file               |
+| `docker compose ps`                | # List all the containers managed by a Compose file             |
+| `docker compose logs`              | # Show the logs of all the containers managed by a Compose file |
 
 <h2> Docker Swarm Commands</h2>
 
-| Command                           | Description                                        |
-| --------------------------------- | -------------------------------------------------- |
-|`docker swarm init`                | # Initialize a new Swarm cluster                   |
-|`docker swarm join`                | # Join a node to an existing Swarm cluster         |
-|`docker swarm leave`               | # Remove a node from a Swarm cluster               |
-|`docker stack deploy`              | # Deploy a stack to a Swarm cluster                |
-|`docker service ls`                | # List all the services running in a Swarm cluster |
-|`docker node ls`                   | # List all the nodes in a Swarm cluster            |
+| Command                            | Description                                        |
+| ---------------------------------- | -------------------------------------------------- |
+| `docker swarm init`                | # Initialize a new Swarm cluster                   |
+| `docker swarm join`                | # Join a node to an existing Swarm cluster         |
+| `docker swarm leave`               | # Remove a node from a Swarm cluster               |
+| `docker stack deploy`              | # Deploy a stack to a Swarm cluster                |
+| `docker service create`            | # Creates a new service in the Swarm cluster       |
+| `docker service ls`                | # List all the services running in a Swarm cluster |
+| `docker node ls`                   | # List all the nodes in a Swarm cluster            |
