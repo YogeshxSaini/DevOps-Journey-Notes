@@ -56,7 +56,7 @@ In Docker, mounts allow you to share files and directories between the host mach
 
 There are two ways we can mount the volume to docker container.
 
-1.  `-v` option (deprecated)
+1.  `-v` option (old way)
 2. `--mount` option
 
 ### `-v` option:
@@ -69,7 +69,8 @@ docker run -v /path/to/host/directory:/path/to/container/directory myimage
 
 ### `--mount` option:
 
-This is the newer way of mounting volumes in Docker. With this option, you can specify the same information as with the `-v` option, but you can also specify additional options such as the read-only flag or the volume driver. For example, the following command mounts the host directory `/path/to/host/directory` to the container directory `/path/to/container/directory` and sets it to read-only:
+This is the newer way of mounting volumes in Docker. With this option, you can specify the same information as with the `-v` option, but you can also specify additional options such as the read-only flag or the volume driver. `--mount` is more explicit and verbose.
+For example, the following command mounts the host directory `/path/to/host/directory` to the container directory `/path/to/container/directory` and sets it to read-only:
 
 ```
 docker run --mount type=bind,source=/path/to/host/directory,target=/path/to/container/directory,readonly myimage
