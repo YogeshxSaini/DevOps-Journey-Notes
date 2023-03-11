@@ -6,7 +6,7 @@ Docker engine includes three main components:
 2. Docker REST API
 3. Docker CLI
 
-![Alt text](../../../../../../Downloads/Picture1-15.png)
+![Docker Components](https://user-images.githubusercontent.com/111651161/224480848-4da89433-c1b5-4b2a-9063-5d686a02a5b1.png)
 
 ## Docker Daemon
 
