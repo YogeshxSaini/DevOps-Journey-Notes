@@ -71,7 +71,7 @@ The new way of volume mounting using the `--mount` option provides more flexibil
 
 ## Types of docker mounts
 
-1. ### Docker bind mount
+### 1. Docker bind mount
 
 Bind mounts allow you to mount a file or directory on the host machine to a directory in the Docker container.
 Docker bind mounts can be created using the `-v` option with the docker run command:
@@ -88,7 +88,7 @@ docker run --mount type=bind,source=/host/path,target=/container/path <image-nam
 
 This will mount the directory at `/host/path` on the host system to `/container/path` inside the container.
 
-2. ### Docker volume mount
+### 2. Docker volume mount
 
 Volume mounts allow you to create a new volume or use an existing volume to store data that can be shared between containers. 
 Volume mounts are stored in the Docker host's file system, but they can be managed by Docker and easily moved between hosts.
