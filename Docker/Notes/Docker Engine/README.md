@@ -24,7 +24,7 @@ Its a tool that allows users to interact with the Docker engine and manage Docke
 Fundamentally, both the Docker client and daemon can run on the same system. We can also connect a Docker client to a remote Docker daemon.
 
 ```
-docker -H=remote-docker-engine:2375
+docker -H=<IP-address-of-the-remote-Docker-engine>:2375 <command>
 ```
 
 In addition, by using a REST API, the Docker client and daemon, communicate, over UNIX sockets or a network interface.
