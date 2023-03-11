@@ -20,6 +20,7 @@ Its an API interface used by applications to interact with the Docker daemon and
 ## Docker CLI
 
 Its a tool that allows users to interact with the Docker engine and manage Docker container and images using the command line.
+Docker CLI used the REST API to interact with the Docker Daemon.
 
 Fundamentally, both the Docker client and daemon can run on the same system. We can also connect a Docker client to a remote Docker daemon.
 
