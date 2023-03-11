@@ -56,12 +56,13 @@ In Docker, mounts allow you to share files and directories between the host mach
 
 There are two ways we can mount the volume to docker container.
 
-1.  `-v` option (old way)
+1.  `-v` option (deprecated)
 2. `--mount` option
 
 ### `-v` option:
 
-This is the older way of mounting volumes in Docker. With this option, you can specify the path to the host directory or file to be mounted, as well as the path inside the container where the directory or file should be mounted. For example, the following command mounts the host directory `/path/to/host/directory` to the container directory `/path/to/container/directory`:
+This is the older way of mounting volumes in Docker. With this option, you can specify the path to the host directory or file to be mounted, as well as the path inside the container where the directory or file should be mounted.  
+For example, the following command mounts the host directory `/path/to/host/directory` to the container directory `/path/to/container/directory`:
 
 ```
 docker run -v /path/to/host/directory:/path/to/container/directory myimage
@@ -82,7 +83,7 @@ The new way of volume mounting using the `--mount` option provides more flexibil
 
 ## Types of docker mounts
 
-### Docker **bind** mount
+### Docker bind mount
 
 Bind mounts allow you to mount a file or directory on the host machine to a directory in the Docker container.
 Docker bind mounts can be created using the `-v` option with the docker run command:
@@ -99,7 +100,7 @@ docker run --mount type=bind,source=/host/path,target=/container/path <image-nam
 
 This will mount the directory at `/host/path` on the host system to `/container/path` inside the container.
 
-### Docker **volume** mount
+### Docker volume mount
 
 Volume mounts allow you to create a new volume or use an existing volume to store data that can be shared between containers. 
 Volume mounts are stored in the Docker host's file system, but they can be managed by Docker and easily moved between hosts.
