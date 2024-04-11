@@ -46,6 +46,22 @@ echo "Quotient: $quotient"
 echo "Remainder: $remainder"
 ```
 
+### Arithmetic Operations in Shell Scripting
+
+#### Floating-Point Arithmetic:
+- Shell scripting supports integer arithmetic by default, but floating-point arithmetic requires additional tools or techniques.
+- External commands like `bc` can be used for performing floating-point arithmetic in shell scripts.
+
+#### Example of Floating-Point Arithmetic with bc:
+```bash
+result=$(echo "scale=2; 10 / 3" | bc)
+echo "Result of division: $result"
+```
+
+#### Handling Limitations of Shell Arithmetic:
+- Shell arithmetic has limitations such as overflow, precision loss, and division by zero errors.
+- Mitigate these issues by using appropriate data types, checking for boundary conditions, and handling errors gracefully.
+
 #### Important Notes:
 - Arithmetic operations in shell scripting are performed using operators like `+`, `-`, `*`, `/`, `%`, `++`, and `--`.
 - Use either the `expr` command or double parentheses `((...))` to perform arithmetic operations.
