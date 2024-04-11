@@ -57,10 +57,10 @@ The following is a list of tools and languages I have learned as part of my DevO
 <br>
 
 ## 🐚 Shell Scripting
-<img align="right" src="https://user-images.githubusercontent.com/51878265/209197882-51406a8f-04ff-4c53-a362-ac32ae8566ad.png" height="100" alt="linux"> 
+<img align="right" src="/Users/yogesh/Documents/GitHub/DevOps-Journey-Notes/Icons/shellscripting.png" height="100" alt="linux"> 
 
-- [Notes](Linux/Notes)
-- [Commands](Linux/README.md)
+- [Notes](Shell Scripting/Notes)
+- [Commands](Shell Scripting/README.md)
 
 <br>
 <br>
