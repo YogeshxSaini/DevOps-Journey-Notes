@@ -55,23 +55,6 @@ done
 - It's important to include error handling in scripts to deal with missing or invalid arguments.
 - Providing usage messages helps users understand how to use the script correctly.
 
-### Reading Inputs in Shell Scripting
-
-#### Reading Inputs from Different Sources:
-- In addition to command-line arguments, shell scripts can read inputs from files, pipes, or here documents.
-- This allows scripts to process data from various sources and perform complex tasks.
-
-#### Example of Reading from a File:
-```bash
-while read line; do
-  echo "Line read from file: $line"
-done < input.txt
-```
-
-#### Techniques for Input Validation:
-- Validating and sanitizing user input is crucial to prevent security vulnerabilities like injection attacks.
-- Techniques include checking input format, using regular expressions, and filtering out potentially harmful characters.
-
 #### Important Notes:
 - Command-line arguments provide a way to customize the behavior of scripts without modifying their code.
 - Use positional parameters (`$1`, `$2`, etc.) to access command-line arguments within a script.
