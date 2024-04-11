@@ -55,6 +55,14 @@ The following is a list of tools and languages I have learned as part of my DevO
 - [Commands](Linux/README.md)
 
 <br>
+
+## 🐚 Shell Scripting
+<img align="right" src="https://user-images.githubusercontent.com/51878265/209197882-51406a8f-04ff-4c53-a362-ac32ae8566ad.png" height="100" alt="linux"> 
+
+- [Notes](Linux/Notes)
+- [Commands](Linux/README.md)
+
+<br>
 <br>
 
 ## 📜 License

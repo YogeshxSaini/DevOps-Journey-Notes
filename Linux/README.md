@@ -15,7 +15,7 @@
 | `mv`      | Move or rename files or directories | `mv [options] [source] [destination]` |
 | `rm`      | Remove files or directories         | `rm [options] [file/directory]`       |
 | `mkdir`   | Create a new directory              | `mkdir [options] [directory name]`    |
-
+| `rmdir`   | Remove an empty directory           | `rmdir [options] [directory name]`    |z
 
 ## System Information
 
