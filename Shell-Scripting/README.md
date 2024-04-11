@@ -45,7 +45,3 @@ echo "Hello, World!"
 
 #### Summary:
 Creating your first shell script involves writing a series of commands in a text file, making it executable, and then executing it in the terminal. It's a fundamental skill for automating tasks and managing your system efficiently.
-
----
-
-These notes should give you a solid understanding of how to create your first shell script. Let me know if you need further clarification on any point!
